@@ -22,9 +22,9 @@ export class HeroesComponent implements OnInit {
   // on selecting a hero
   // input: hero
   // output: void
-  onSelect(hero: Hero): void {
-    this.selectedHero = hero;
-  }
+  // onSelect(hero: Hero): void {
+  //   this.selectedHero = hero;
+  // }
 
   // constructor for the heroes component
   // Angular sets this.heroService as a singleton instance of HeroService

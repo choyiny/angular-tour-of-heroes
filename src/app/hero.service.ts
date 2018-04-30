@@ -30,4 +30,10 @@ export class HeroService {
     return of(HEROES);
   }
 
+  // getting only 1 hero from service
+  getHero(id: number): Observable<Hero> {
+    this.messageService.add(`HeroService: fetched hero id=${id}`);
+    return of(HEROES.find(hero => hero.id === id));
+  }
+
 }
