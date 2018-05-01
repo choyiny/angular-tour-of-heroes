@@ -15,7 +15,7 @@ const routes: Routes = [
     // dashboard path
     { path: 'dashboard', component: DashboardComponent },
     // hero detail, with id passed in
-    { path: 'detail/:id', component: HeroDetailComponent}
+    { path: 'detail/:id', component: HeroDetailComponent }
 ]
 
 
